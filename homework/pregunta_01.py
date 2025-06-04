@@ -40,7 +40,7 @@ def pregunta_01():
             infoLinea = lineas[i:]
             break
 
-    #Se recorre cada línea obtenida en anteriormente
+    #Se recorre cada línea obtenida anteriormente
     for linea in infoLinea:
         match = patron.match(linea)
         if match:
